@@ -1,0 +1,64 @@
+html{
+    background-image: linear-gradient(black, white);
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("./passport/pat1.png")
+  linear-gradient(black, #fff);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+ 
+  /* background-image: url(./passport/pat1.png);
+  background-size:contain; */
+  
+}
+
+.hero-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgb(1, 26, 4);
+}
+
+.hero-text {
+  flex: 2 1 400px;
+  padding: 20px;
+   text-shadow:  #000;
+   text-shadow: 0 4px 12px #000;
+
+}
+
+.hero-text h1 {
+  margin-top: 0;
+  font-size: 4rem;
+  color: #001403af;
+ }
+
+.hero-text p {
+  font-size: 2rem;
+  color: #01240893;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding: 20px 0;
+  }
+}
